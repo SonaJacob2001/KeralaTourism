@@ -1,0 +1,21 @@
+.card-container {
+    margin-top: 150px;
+  }
+  
+  .card {
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    color: white !important;
+    backdrop-filter: blur(3px);
+    transition: 0.2s ease-in-out !important;
+  }
+  
+  .card img {
+    filter: grayscale(60);
+    transition: 0.2s ease-in-out !important;
+  }
+  
+  .card:hover img {
+    filter: none;
+    transition: 0.2s ease-in-out !important;
+  }
